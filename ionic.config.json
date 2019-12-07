@@ -1,0 +1,7 @@
+{
+  "name": "sHome",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
