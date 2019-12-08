@@ -75,20 +75,20 @@ export class DetailPage {
   }
 
   onPowerSwitchChange(event) {
-    console.log('onPowerSwitchChange');
+    // console.log('onPowerSwitchChange');
 //*********************************** */
-    var data = new Uint8Array(1);
+   // var data = new Uint8Array(1);
 
 //*********************************** */
-    data[0] = this.power ? 1 : 0;
+   /* data[0] = this.power ? 1 : 0;
 
      this.ble.write(this.peripheral.id, LED_SERVICE , LED_CHARACERISTIC , data.buffer);
-      console.log("Sending: " + data[0]);
+      console.log("Sending: " + data[0]); */
 
   }
 
   setBrightness(event) {
-
+    console.log("this.brightness: " + this.brightness);
        var data = new Uint8Array([this.brightness]);
        console.log("Sending: " + data[0]);
     this.ble.write(this.peripheral.id, LED_SERVICE, LED_CHARACERISTIC, data.buffer).then(
