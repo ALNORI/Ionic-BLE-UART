@@ -2,12 +2,6 @@ page-detail {
   .toolbar-content p {
       margin-left: 10px;
   }
-  .card {
-      padding: 20px;
-      text-align: center;
-  }
-
-  .card h1 {
-      font-size: 4em;
-  }
 }
+.flex { display: flex; flex-direction: row; justify-content: center; width: 800px; border: 1px solid gray; padding: 4px;}
+.flex div { border: 1px solid gray; padding: 4px; background: #A4F2D8; font-family: verdana; font-size: 19px; text-align: center; color: gray; }
